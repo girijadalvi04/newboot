@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .nav {
+            background-color: aqua;
+            width: 100%;
+            overflow: auto;
+
+        }
+
+        .nav a {
+
+            text-decoration: none;
+            float: left;
+            padding: 15px;
+            color: aliceblue;
+        }
+
+        .nav a:hover{
+            background-color: black;
+        }
+        @media screen and (max-width : 600px)  {
+            .nav a{
+                float: none;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div><a href="">home</a></div>
+        <div><a href="">home</a></div>
+        <div><a href="">contact us</a></div>
+        <div><a href="">others</a></div>
+
+    </div>
+</body>
+
+</html>

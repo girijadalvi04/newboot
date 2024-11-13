@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .main {
+            background-color: gainsboro;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px;
+            display: inline-block;
+
+
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            text-decoration: none;
+            padding: 8px;
+            border: 1px solid black;
+            margin: 5px;
+            background-color: hotpink;
+            display: block;
+        }
+
+        .dropdown-options {
+            position: absolute;
+            display: none;
+
+        }
+
+        li a:hover {
+            background-color: aqua;
+            /* color: aliceblue; */
+        }
+
+        /* li.dropdown .dropbutton{
+            background-color: blue;
+
+        } */
+        li.dropdown .dropbutton:hover {
+            background-color: gainsboro;
+
+        }
+
+        li.dropdown:hover .dropdown-options {
+            display: block;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <ul>
+
+            <li><a href="" <i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact us</a></li>
+            <li class="dropdown"><a href="" class="dropbutton">Fashion</a>
+                <div class="dropdown-options">
+                    <a href="">Mens'clothing</a>
+                    <a href="">Women's clothing</a>
+                    <a href="">accessories</a>
+
+                </div>
+            </li>
+
+
+        </ul>
+
+    </div>
+</body>
+
+</html>

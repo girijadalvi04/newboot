@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main {
+            width: 100%;
+            height: 1000px;
+            background-color: hotpink;
+        }
+
+        #a1 {
+            border: 2px solid black;
+            background-color: blueviolet;
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+            position: static;
+
+        }     
+
+        #a2 {
+            border: 2px solid black;
+            background-color: blueviolet;
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+            position: relative;
+            left: 150px;
+            top: 150px;
+
+
+        }
+        
+
+            #a3 {
+            border: 2px solid black;
+            background-color: blueviolet;
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+            position: absolute;
+            right: 150px;
+            bottom: 300px;
+
+
+        }
+        
+        #a4 {
+            border: 2px solid black;
+            background-color: blueviolet;
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+            position: sticky;
+           bottom: 5px;
+           
+        
+
+
+        }
+
+        #a5 {
+            border: 2px solid black;
+            background-color: blueviolet;
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+            position: fixed;
+             bottom: 5px;
+             right: 5px;
+           
+        
+
+
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="a" id="a1">Static</div>
+        <div class="a" id="a2">Relative</div>
+        <div class="a" id="a3">Absolute</div>
+        <div class="a" id="a4">Sticky</div>
+
+        <div class="a" id="a5">fixed</div>
+    </div>
+</body>
+
+</html>

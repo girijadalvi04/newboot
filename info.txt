@@ -1,0 +1,104 @@
+marquee directions-
+left/right/up/down
+
+behaviour-
+alternate
+scrolling
+slide
+
+css types
+inline 
+internal css
+external css
+
+css colors
+suggestion
+
+rgb
+hexadecimal
+
+HSL
+hue
+saturation
+
+
+list types-
+ordered
+unordered
+nested 
+definition
+
+Position properties-
+
+static- bydefault left/right/top/bottom=0
+relative - flow according to the document
+absolute -parent 
+sticky-
+fixed-
+
+left
+right
+top 
+bottom
+
+display properties-
+inline 
+inline block
+block
+none 
+
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+
+animation-
+css
+keyframes
+
+animation name
+delay
+timing function
+duration
+iteration count
+direction
+play mode
+full mode
+
+speed-
+linear = normal and constant
+ease = bydefault
+ease-in
+ease-out
+ease-in-out
+cubic
+step
+
+
+transform properties-
+rotate
+scale
+scalex,scaley
+skew
+translate
+skewx,skewy
+matrix(scalex,skewx, skewy,scaley,translatex, translatey)
+
+transition-
+transition
+transition delay
+transition duration
+transition timing function
+
+linear
+radial-
+farthest-corner
+closest-corner
+closest-side
+farthest-side
+conic
+
+
+  rectangle
+  ellipse
+  circle
+  line
+  polygon
+  polyline
